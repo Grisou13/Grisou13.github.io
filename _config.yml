@@ -2,12 +2,13 @@
 title: Thomas Ricci
 description: "My personnal website, have a look around"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://grisou13.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https:yourusername.githu.io'
+#url: "http://grisou13.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https:yourusername.githu.io'
+url: ""
 # User settings
 username: Thomas Ricci
 user_title: Thomas Ricci - Portfolio
 email: thomasricci11@gmail.com
-twitter_username: loremipsum
+twitter_username: ""
 github_username:  Grisou13
 gplus_username: thomasricci11
 disqus_username: ""
@@ -29,21 +30,19 @@ compress_html:
 links:
   - title: home
     url: /
-  - title: my posts
+  - title: Posts
     url: /posts
-  - title: series
-    url: /series
   - title: tags
     url: /tags
   - title: about me
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara
-# exclude my node related stuff
+  - name: Pidrone
+    url: https://github.com/Grisou13/pidrone
+  - name: mawie
+    url: https://github.com/Grisou13/mawie
+  - name: Cloud Api
+    url: https://github.com/Grisou13/cloudApi
+# exclude node related stuff
 exclude: ['package.json', 'src', 'node_modules']

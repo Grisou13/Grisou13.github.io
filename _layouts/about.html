@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    {% include head.html %}
+    <body>
+        {% include svg-icons.html %}
+        {% include header-post.html %}
+        <div class="sidebar">
+          <div class="content">
+              <div class="person">
+                <img src="/assets/img/profile_2.png"  alt="">
+              </div>
+              <div class="title">
+                <h2>Hi there</h2>
+              </div>
+              <div class="self-desc">
+                <p>I like tech and most of the overhead around it.</p>
+                <p>Currently i am searching for an intership.</p>
+                <p>If you are looking for someone, you know who to reach out</p>
+              </div>
+          </div>
+        </div>
+        <section class="post about" itemscope itemtype="http://schema.org/WebPage">
+
+            <article role="article" id="scroll" class="post-content" role="main" itemprop="mainContentOfPage">
+                {{ content }}
+            </article>
+            {% include scripts.html %}
+        </section>
+    </body>
+</html>

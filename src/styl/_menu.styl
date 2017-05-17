@@ -11,7 +11,7 @@ body
 a, aside, .overlay, body
     transition all .25s ease
 a.slideButton, .dosearch
-    position absolute
+    position fixed
     display block
     width 40px
     height 40px
@@ -19,11 +19,13 @@ a.slideButton, .dosearch
     z-index 31
 .slideButton
     left 10px
+
 .dosearch
     right 10px
     background darken(main,10%)
     border-radius rem(3px)
     padding rem(2px) rem(3px)
+
 .icon-menu
     cursor pointer
     padding rem(5px)
@@ -83,7 +85,7 @@ aside
                         margin-right -10px
                         padding-left 10px
                 +above(1000px)
-                    display block                            
+                    display block
             li
                 transform skewx(-20deg)
                 padding 3px 4px 6px 4px
@@ -113,7 +115,7 @@ aside
                     mainFont(800)
                     font-size rem(13px)
                     color mainLight
-                &:nth-child(3), 
+                &:nth-child(3),
                 &:nth-child(4)
                     +below(cut)
                         display none

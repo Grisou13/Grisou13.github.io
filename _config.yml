@@ -30,10 +30,6 @@ compress_html:
 links:
   - title: home
     url: /
-  - title: Posts
-    url: /posts
-  - title: tags
-    url: /tags
   - title: about me
     url: /about
 # projects in header index
@@ -44,5 +40,7 @@ projects:
     url: https://github.com/Grisou13/mawie
   - name: Cloud Api
     url: https://github.com/Grisou13/cloudApi
+  - name: Runners
+    url: https://github.com/CPNV-ES/Runners-Laravel
 # exclude node related stuff
 exclude: ['package.json', 'src', 'node_modules']

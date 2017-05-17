@@ -1,7 +1,7 @@
 ---
 ---
 [
-  {"email": {% site.email %}}
+  {"email": "{{ site.email }}" }
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",

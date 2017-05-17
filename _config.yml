@@ -17,7 +17,7 @@ disqus_username: ""
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-
+mailto: "mailto:thomasricci11@gmail.com?subject=I want you!&body=Hey Thomas,%0D%0ALet's get in touch, I'm ..."
 
 # html minify
 compress_html:
